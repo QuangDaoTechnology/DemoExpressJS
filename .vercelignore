@@ -1,4 +1,5 @@
 app.js
+netlify/
 README.md
 *.log
 *.env

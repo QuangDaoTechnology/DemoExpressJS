@@ -1,0 +1,8 @@
+[build]
+ publish = "public" #Nơi chứa file tĩnh (index.html)
+ functions = "netlify/functions" # Thư mục chứa serverless function
+
+[[redirects]]
+ from = "/api/*"
+ to = "/.netlify/functions/api"
+ status = 200
